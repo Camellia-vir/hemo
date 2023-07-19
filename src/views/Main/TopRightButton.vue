@@ -5,27 +5,6 @@
         <el-drawer 
             v-model="drawer" 
             :with-header="false">
-            <!-- <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
-                <el-tab-pane label="User" name="first">我的</el-tab-pane>
-                <el-tab-pane label="Config" name="second">设置</el-tab-pane>
-            </el-tabs> -->
-            <!-- <div class="divClass">
-                <nav class="side-header">
-                    <div class="item">
-                        <img style="width:24px;height:24px" src="/images/icon/github.png" />
-                        <span>添加</span>
-                    </div>
-                    <div class="item">
-                        <span>我的</span>
-                    </div>
-                    <div class="item">
-                        <span>设置</span>
-                    </div>
-                </nav>
-                <div class="side-content">
-                    
-                </div>
-            </div> -->
         </el-drawer>
     </div>
 </template>

@@ -4,11 +4,11 @@
     <main>
       <div class="container" v-show="!store.backgroundShow">
         <section class="main" v-show="!store.setOpenState">
-          <MainApp/>
-          <!-- <MainLeft />
+          <!-- <MainApp/> -->
+          <MainLeft />
           <MainRight v-show="!store.boxOpenState" />
           <Box v-show="store.boxOpenState" /> 
-          <TopRightButton/> -->
+          <!-- <TopRightButton/> -->
         </section>
         <!-- 这是设置 -->
         <section
